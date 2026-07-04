@@ -4,3 +4,8 @@ node_modules
 .vscode
 
 .editorconfig
+.prettierrgnore
+.prettierrc
+INTERVIEW_GUIDE.md
+.claude
+.env.example

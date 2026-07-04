@@ -1,0 +1,73 @@
+:root {
+  /* Typography Scale */
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-size-display: 48px;
+  --font-size-h1: 36px;
+  --font-size-h2: 24px;
+  --font-size-h3: 20px;
+  --font-size-h4: 18px;
+  --font-size-body: 16px;
+  --font-size-caption: 14px;
+  --font-size-button: 16px;
+
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing Scale */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+
+  /* Theme Colors */
+  --color-primary: #4f46e5;      /* Deep Indigo */
+  --color-primary-hover: #4338ca;
+  
+  --color-secondary: #64748b;    /* Slate */
+  --color-secondary-hover: #475569;
+  
+  --color-accent: #0d9488;       /* Teal */
+  
+  --color-danger: #e11d48;       /* Rose Red */
+  --color-danger-hover: #be123c;
+  
+  --color-success: #10b981;      /* Emerald Green */
+  --color-success-hover: #059669;
+  
+  --color-warning: #f59e0b;      /* Amber */
+  --color-warning-hover: #d97706;
+  
+  --color-surface: #ffffff;      /* Pure White */
+  --color-background: #f9fafb;   /* Very Light Gray */
+  --color-border: #e5e7eb;       /* Light Gray */
+  --color-border-hover: #d1d5db; /* Medium Light Gray */
+  
+  --color-text: #1f2937;         /* Deep Slate */
+  --color-text-muted: #6b7280;   /* Medium Gray */
+
+  /* UI Tokens */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 200ms ease-in-out;
+  --transition-slow: 300ms ease-in-out;
+
+  /* Focus Ring */
+  --focus-ring: 0 0 0 2px var(--color-background), 0 0 0 4px var(--color-primary);
+}

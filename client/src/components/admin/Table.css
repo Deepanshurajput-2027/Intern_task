@@ -1,0 +1,80 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  background-color: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-border);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.data-table th,
+.data-table td {
+  padding: var(--spacing-12) var(--spacing-16);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.data-table th {
+  background-color: var(--color-background);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.data-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.data-table th.sortable:hover {
+  color: var(--color-text);
+}
+
+.data-table td {
+  color: var(--color-text);
+  font-size: var(--font-size-body);
+  vertical-align: middle;
+}
+
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.data-table tr:hover td {
+  background-color: var(--color-background);
+}
+
+.table-empty-state {
+  padding: var(--spacing-48) var(--spacing-24);
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.table-skeleton-row td {
+  padding: var(--spacing-16);
+}
+
+.skeleton-cell {
+  height: 20px;
+  background-color: var(--color-border);
+  border-radius: var(--radius-sm);
+}
+
+.badge-role {
+  display: inline-block;
+  padding: 2px var(--spacing-8);
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: var(--font-weight-semibold);
+  background-color: var(--color-background);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+}

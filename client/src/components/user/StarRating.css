@@ -1,0 +1,45 @@
+.star-rating {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-8);
+  justify-content: center;
+  padding: var(--spacing-16) 0;
+}
+
+.star-container {
+  color: var(--color-border);
+  cursor: pointer;
+  transition: transform 150ms ease-in-out, color 150ms ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+}
+
+.star-container:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+.star-container:not(.disabled):hover {
+  transform: scale(1.1);
+}
+
+.star-container.filled {
+  color: #F59E0B; /* Amber-500 */
+}
+
+.star-icon {
+  transition: fill 150ms ease-in-out;
+}
+
+.star-container.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.star-rating.compact {
+  padding: 0;
+  justify-content: flex-start;
+  gap: 2px;
+}
